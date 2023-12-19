@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import restaurantFoodImage from './assets/restaurant-food.jpg';
+import nasiGoreng from './assets/nasi-goreng.jpg';
 import './Hero.css';
 import pages from '../../../utils/pages';
 
@@ -8,7 +8,7 @@ const Hero = () => {
     <section className="hero">
       <div className="container grid">
         <div className="hero-information">
-          <h1>Little Lemon</h1>
+          <h1>Little Lemon Restaurant</h1>
           <h2>Chicago</h2>
           <p>
             We are a family owned Mediterranean restaurant, 
@@ -20,7 +20,7 @@ const Hero = () => {
         </div>
         <img 
           className="hero-image" 
-          src={restaurantFoodImage} 
+          src={nasiGoreng} 
           alt="Restaurant food" 
         />
       </div>

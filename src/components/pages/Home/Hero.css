@@ -14,7 +14,7 @@
 }
 
 .hero-information h1 {
-  color: #F4CE14;
+  color: #fff6af;
 }
 
 .hero-information h2 {
@@ -33,7 +33,7 @@
 
 .hero-information .button-primary:hover, 
 .hero-information .button-primary:focus {
-  border-color: #F4CE14;
+  border-color: #de4006;
 }
 
 .hero-image {
@@ -42,7 +42,7 @@
   height: 24rem;
   margin-bottom: -4.375rem;
   justify-self: end;
-  border-radius: 1rem;
+  border-radius: 3rem;
   object-fit: cover;
 }
 
